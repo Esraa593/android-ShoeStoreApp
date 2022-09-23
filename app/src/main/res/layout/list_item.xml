@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="viewModel"-->
+<!--            type="com.example.android.shoestore.ShoeData" />-->
+
+<!--    </data>-->
+
+    <LinearLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/sizeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/companyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/descriptionView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+</layout>

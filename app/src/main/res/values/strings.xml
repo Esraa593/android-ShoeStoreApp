@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- LOGIN SCREEN   -->
+    <string name="login_title">Login</string>
+    <string name="password_hint">Password must be >5 characters</string>
+    <string name="email_text">Email</string>
+    <string name="password">Password</string>
+    <string name="create">Create</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Enter Your Email Address</string>
+    <!--  WELCOME SCREEN  -->
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_text">Welcome To \n  Shoe Store App</string>
+    <string name="go_to_instructions"><![CDATA[Go To Instructions ->]]></string>
+    <string name="lets_go">Lets Go!</string>
+    <!--  INSTRUCTIONS SCREEN  -->
+    <string name="instruction_title">Instructions</string>
+    <string name="be_careful">
+        Be careful to these instructions to keep up the app
+    </string>
+    <string name="instructions">
+        \n1- Shoe Store App is just for admins
+        \n\n2- You cannot return back to Login, Welcome or Instruction screens
+        once you clicked the -Go To Shoe List- button.
+        \n\n3- This App allow you to add a new shoe to your store list
+            by clicking on -Add New Shoe- button.
+    </string>
+    <string name="go_to_shoe_list">Go To Shoe List</string>
+    <!--  SHOE LIST SCREEN  -->
+    <string name="shoe_list_title">Shoe List</string>
+    <string name="add_new_shoe">Add New Shoe</string>
+    <string name="logout">Logout</string>
+    <!--  SHOE DETAIL SCREEN  -->
+    <string name="shoe_detail_title">Shoe Detail</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_company">Shoe Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="shoe_description">Shoe Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name or Model</string>
+    <string name="company">Company or Brand</string>
+    <string name="size">Size</string>
+    <string name="description">eg.Color, Shape</string>
+</resources>

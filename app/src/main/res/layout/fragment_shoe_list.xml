@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ShoeListFragment">
+
+    <!-- SCROLLVIEW -> AS IT IS A FRAME LAYOUT AND IT IS THE ONLY ELEMENT WE NEED  -->
+
+    <ScrollView
+        android:id="@+id/shoe_list_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/shoeListLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_floatingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/add_new_shoe"
+                android:focusable="true"
+                android:src="@android:drawable/ic_menu_add" />
+<!--            <TextView-->
+<!--                android:id="@+id/shoeItemView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:visibility="gone"-->
+<!--                style="@style/AppTextStyle" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

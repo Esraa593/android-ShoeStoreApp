@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTextStyle">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/font_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="constraintMargins">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+</resources>
